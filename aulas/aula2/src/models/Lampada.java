@@ -7,7 +7,11 @@ public class Lampada {
 	public long codigoBarras;
 	
 	public void imprimir() {
-		
+		System.out.println("modelo: "+ modelo);
+		System.out.println("fornecedor: "+fornecedor);
+		System.out.println("preco: "+preco);
+		System.out.println("codigoBarras: "+ codigoBarras);
+
 	}
 	
 	public void ligar() {
