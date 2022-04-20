@@ -1,4 +1,4 @@
-package main.exercicio1;
+package main.exercicio01;
 
 import models.exercicio1.Triangulo;
 import java.util.Scanner;

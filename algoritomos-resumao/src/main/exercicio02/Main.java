@@ -1,4 +1,4 @@
-package main.exercicio2;
+package main.exercicio02;
 import java.util.Scanner;
 
 import models.exercicio2.Horas;
