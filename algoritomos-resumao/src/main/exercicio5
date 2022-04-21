@@ -1,0 +1,24 @@
+package main.exercicio25;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static Scanner entrada = new Scanner(System.in);
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Digite 3 lados do triangulo: ");
+		int ladoA = entrada.nextInt();
+		int ladoB= entrada.nextInt();
+		int ladoC = entrada.nextInt();
+		
+		if((ladoB + ladoC) > ladoA && (ladoA + ladoC) > ladoB && (ladoA + ladoB) > ladoC) {
+			System.out.println("E um triangulo.");
+		}
+		else
+			System.out.println("nao e um triangulo");
+
+	}
+
+}
