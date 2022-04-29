@@ -1,7 +1,7 @@
 package main.exercicio02;
 import java.util.Scanner;
 
-import models.exercicio2.Horas;
+import models.exercicio02.Horas;
 
 public class Main {
 	

@@ -1,4 +1,4 @@
-package models.exercicio1;
+package models.exercicio01;
 
 public class Triangulo {
 	

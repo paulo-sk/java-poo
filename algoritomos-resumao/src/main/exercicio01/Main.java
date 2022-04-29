@@ -1,7 +1,8 @@
 package main.exercicio01;
 
-import models.exercicio1.Triangulo;
 import java.util.Scanner;
+
+import models.exercicio01.Triangulo;
 
 public class Main {
 	

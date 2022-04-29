@@ -1,4 +1,4 @@
-package models.exercicio2;
+package models.exercicio02;
 
 public class Horas {
 	private int hora;
