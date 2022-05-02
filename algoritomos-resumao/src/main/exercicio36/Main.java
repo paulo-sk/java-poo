@@ -8,17 +8,19 @@ public class Main {
 	public static void main(String[] args) {
 		
 		System.out.println("Digite um valor: ");
-		int valor1 = entrada.nextInt();
+		double valor1 = entrada.nextInt();
 		
-		int valor2 = 0;
+		double valor2 = 0;
 		
 		while(valor2 == 0) {
 			System.out.println("Digite o segundo valor: ");
-			valor2 = entrada.nextInt();
+			valor2 = entrada.nextDouble();
 			
 			if(valor2 == 0)
 				System.out.println("***Valor invalido***");
 		}
+		
+		System.out.println(valor1+" / "+valor2+" = "+valor1/valor2);
 
 	}
 

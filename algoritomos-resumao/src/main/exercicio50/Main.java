@@ -15,7 +15,8 @@ public class Main {
 			if(n < 0)
 				somaNegativos++;
 		}
-
+		
+		System.out.println("Negativos: "+somaNegativos);
 	}
 
 }

@@ -28,7 +28,7 @@ public class Main {
 		
 		for (Entry<Integer, Integer> entry : cont.entrySet()) {
 			if(entry.getValue() > 1)
-				System.out.printf("\nNumro %s se repete %d vezes", entry.getKey(), entry.getValue());
+				System.out.printf("\nNumero %s se repete %d vezes", entry.getKey(), entry.getValue());
 		}
 
 	}
