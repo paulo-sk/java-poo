@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class TestMain {
+public class CodigoExemplo {
 
 	public static void main(String[] args) {
 		List<String> lista = new ArrayList<String>(8);
@@ -19,7 +19,7 @@ public class TestMain {
 		lista.add("Doroteia-Paulo");
 		lista.add("Filipe-Celso");
 		lista.add("Adao-Bastos");
-		Collections.sort(lista); // ordena a lista em ordem alfabética.
+		Collections.sort(lista); // ordena a lista em ordem alfabï¿½tica.
 
 		Map<String, Integer> cont = new TreeMap<String, Integer>();
 		for (String nome : lista) {

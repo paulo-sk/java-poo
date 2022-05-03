@@ -8,7 +8,7 @@ import java.util.Map.Entry;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-public class Main {
+public class PrimeiraTentativa {
 
 	public static Scanner entrada = new Scanner(System.in);
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Main {
 		for(int i = 0;  i < 5; i++) {
 			lista.add(entrada.nextInt());
 		}
-		Collections.sort(lista); // ordena a lista em ordem alfabética.
+		Collections.sort(lista); // ordena a lista em ordem alfabï¿½tica.
 
 		Map<Integer, Integer> cont = new TreeMap<Integer, Integer>();
 		for (int repeticao : lista) {
