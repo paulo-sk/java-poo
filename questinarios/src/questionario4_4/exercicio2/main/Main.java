@@ -9,6 +9,7 @@ import questionario4_4.exercicio2.models.Gincana;
 public class Main {
 
 	public static Scanner entrada = new Scanner(System.in);
+	
 	public static void main(String[] args) {
 		
 		
@@ -45,16 +46,17 @@ public class Main {
 				System.out.println("Nome da equipe: ");
 				nomeEquipe = entrada.next();
 				
-				for(Equipe equipe: equipes) {
-					if(equipe.getNome().equals(nomeEquipe)) {
-						System.out.println("Pontos a serem adicionados: ");
-						int pontosAdicionados = entrada.nextInt();
-						equipe.adicionarPontos(pontosAdicionados);
-						break;
-					}
+				//criando uma referencia para o objeto que tem nome = nomeEquipe.
+				Equipe equipeNome = gincana.buscarEquipe(nomeEquipe);
+				
+				if(equipeNome != null) {
+					System.out.println("Digite os pontos");
+					int pontos = entrada.nextInt();
+					equipeNome.adicionarPontos(pontos);
+					break;
 				}
-					System.out.println("nome de equipe invalido");
-					
+				
+				System.out.println("Nome de equipe invalido.");
 				break;
 
 			case "2":
