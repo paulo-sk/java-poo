@@ -5,6 +5,8 @@ public class Horario {
 	private int minuto;
 	private int segundo;
 	
+	
+	
 	public int getHora() {
 		return hora;
 	}
