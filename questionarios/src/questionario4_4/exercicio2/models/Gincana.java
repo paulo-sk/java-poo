@@ -12,6 +12,18 @@ public class Gincana {
 		this.equipes = equipes;
 	}
 	
+	public Equipe buscarEquipe(String nome) {
+		Equipe equipe = null;
+		
+		for(Equipe temp: equipes) {
+			if(temp.getNome().equals(nome)) {
+				equipe = temp;
+				break;
+			}
+		}
+		
+		return equipe;
+	}
 	
 	public void somaPontuacaoTotal() {
 		for(Equipe equipe: equipes) {
